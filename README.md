@@ -1,4 +1,4 @@
-# nearappatika
+# nearAppatika
 ==================
 
 
@@ -14,7 +14,7 @@ Now you'll have a local development environment backed by the NEAR TestNet!
 Go ahead and play with the app and the code. As you make code changes, the app will automatically reload.
 
 
-Exploring The Code
+exploringTheCode
 ==================
 
 1. The "backend" code lives in the `/contract` folder. See the README there for
@@ -28,7 +28,7 @@ Exploring The Code
    run test`.
 
 
-Deploy
+deploy
 ======
 
 Every smart contract in NEAR has its [own associated account][NEAR accounts]. When you run `npm run dev`, your smart contract gets deployed to the live NEAR TestNet with a throwaway account. When you're ready to make it permanent, here's how.
@@ -57,7 +57,7 @@ Each account on NEAR can have at most one contract deployed to it. If you've alr
 
 2. Create a subaccount (replace `YOUR-NAME` below with your actual account name):
 
-      near create-account firstapp.YOUR-NAME.testnet --masterAccount YOUR-NAME.testnet
+      near create-account nearappatika.YOUR-NAME.testnet --masterAccount YOUR-NAME.testnet
 
 
 Step 2: set contract name in code
@@ -65,7 +65,7 @@ Step 2: set contract name in code
 
 Modify the line in `src/config.js` that sets the account name of the contract. Set it to the account id you used above.
 
-    const CONTRACT_NAME = process.env.CONTRACT_NAME || 'firstapp.YOUR-NAME.testnet'
+    const CONTRACT_NAME = process.env.CONTRACT_NAME || 'nearAppatika.YOUR-NAME.testnet'
 
 
 Step 3: deploy!
