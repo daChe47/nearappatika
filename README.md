@@ -49,7 +49,7 @@ Ensure that it's installed with `near --version` (or `npx near --version`)
 Step 1: Create an account for the contract
 ------------------------------------------
 
-Each account on NEAR can have at most one contract deployed to it. If you've already created an account such as `your-name.testnet`, you can deploy your contract to `firstapp.your-name.testnet`. Assuming you've already created an account on [NEAR Wallet], here's how to create `firstapp.your-name.testnet`:
+Each account on NEAR can have at most one contract deployed to it. If you've already created an account such as `your-name.testnet`, you can deploy your contract to `nearAppatika.your-name.testnet`. Assuming you've already created an account on [NEAR Wallet], here's how to create `nearAppatika.your-name.testnet`:
 
 1. Authorize NEAR CLI, following the commands it gives you:
 
