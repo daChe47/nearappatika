@@ -1,4 +1,4 @@
-firstapp Smart Contract
+nearAppatika Smart Contract
 ==================
 
 A [smart contract] written in [AssemblyScript] for an app initialized with [create-near-app]
@@ -19,8 +19,4 @@ Exploring The Code
    standard AssemblyScript tests using [as-pect].
 
 
-  [smart contract]: https://docs.near.org/docs/develop/contracts/overview
-  [AssemblyScript]: https://www.assemblyscript.org/
-  [create-near-app]: https://github.com/near/create-near-app
-  [Node.js]: https://nodejs.org/en/download/package-manager/
-  [as-pect]: https://www.npmjs.com/package/@as-pect/cli
+
